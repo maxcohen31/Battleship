@@ -1,7 +1,7 @@
 # Battleship
 Command line battleship game written in C++
 
-### Code walkthrough
+## Code walkthrough
 
 #### print_board()
 This function takes in a board, which is made by using an array structure, and print it to console.
