@@ -28,7 +28,7 @@ A simple banner displayed in the terminal.
 #### play_quit()
 Ask the user to play the game or to quit it.
 
-### Run locally
+### Run locally - Linux
 ```bash
    g++ -o main Battleship.cpp
    ./main
