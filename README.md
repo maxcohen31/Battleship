@@ -1,6 +1,6 @@
 # Battleship
 Command line battleship game written in C++.
-Developed on Arch Linux
+Developed on Arch Linux.
 
 ## Code walkthrough
 
