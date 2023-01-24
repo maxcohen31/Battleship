@@ -3,8 +3,6 @@ Command line battleship game written in C++
 
 ## Code walkthrough
 
-![image](img/game1.png)
-
 #### print_board()
 This function takes in a board, which is made by using an array structure, and print it to console.
 
