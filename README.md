@@ -1,5 +1,6 @@
 # Battleship
-Command line battleship game written in C++
+Command line battleship game written in C++.
+Developed on Arch Linux
 
 ## Code walkthrough
 
@@ -25,6 +26,11 @@ A simple banner displayed in the terminal.
 
 #### play_quit()
 Ask the user to play the game or to quit it.
+
+### Run locally
+```bash
+   g++ -o main Battleship.cpp
+```
 
 ## Future implementation
 - Player Vs AI
