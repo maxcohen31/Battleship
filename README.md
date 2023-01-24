@@ -4,6 +4,8 @@ Command line battleship game written in C++
 ## Code walkthrough
 
 ![image](img/game1.png)
+![image](img/game2.png)
+![image](img/game3.png)
 
 #### print_board()
 This function takes in a board, which is made by using an array structure, and print it to console.
@@ -25,3 +27,6 @@ A simple banner displayed in the terminal.
 
 #### play_quit()
 Ask the user to play the game or to quit it.
+
+## Future implementation
+- Player Vs AI
