@@ -1,5 +1,6 @@
 # Battleship
 Command line battleship game written in C++.
+
 Developed on Arch Linux.
 
 ## Code walkthrough
@@ -30,6 +31,7 @@ Ask the user to play the game or to quit it.
 ### Run locally
 ```bash
    g++ -o main Battleship.cpp
+   ./main
 ```
 
 ## Future implementation
