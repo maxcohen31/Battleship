@@ -65,40 +65,51 @@ int main(){
         // Place destroyer
         std::cout << "First placement:  DESTROYER" << std::endl;
         place_ship(player1_board, DESTROYER_SIZE, 'D');
+        std::cout << std::endl;
 
         // // Place submarine
         std::cout << "Second placement: SUBMARINE" << std::endl;
         place_ship(player1_board, SUBMARINE_SIZE, 'S');
+        std::cout << std::endl;
 
         // Place battleship
         std::cout << "Third placement: BATTLESHIP " << std::endl;
         place_ship(player1_board, BATTLESHIP_SIZE, 'B');
+        std::cout << std::endl;
 
         // Place carrier
         std::cout << "Third placement: BATTLESHIP " << std::endl;
         place_ship(player1_board, CARRIER_SIZE, 'C');
+        std::cout << std::endl;
 
         print_board(player1_board);
+        std::cout << std::endl;
+
 
         
         std::cout << "Player 2 - place your ships" << std::endl;
         // Place destroyer
         std::cout << "First placement:  DESTROYER" << std::endl;
         place_ship(player2_board, DESTROYER_SIZE, 'D');
+        std::cout << std::endl;
 
         // Place submarine
         std::cout << "Second placement: SUBMARINE" << std::endl;
         place_ship(player2_board, SUBMARINE_SIZE, 'S');
+        std::cout << std::endl;
 
         // Place battleship
         std::cout << "Third placement: BATTLESHIP " << std::endl;
         place_ship(player2_board, BATTLESHIP_SIZE, 'B');
+        std::cout << std::endl;
 
         // Place carrier
         std::cout << "Third placement: BATTLESHIP " << std::endl;
         place_ship(player2_board, CARRIER_SIZE, 'C');
+        std::cout << std::endl;
 
         print_board(player2_board);
+        std::cout << std::endl;
 
         std::cout << std::endl;
         std::cout << "++++++++++++++++++++++++++" << std::endl;
@@ -112,14 +123,11 @@ int main(){
             {   
                 std::cout << "Player 1's turn!\n";
                 strike(1, player2_board);
-                print_board(player2_board);
             }
             else
             {
                 std::cout << "Player 2's turn!\n";
                 strike(2, player1_board);
-                print_board(player1_board);
-
             }    
             
             bool ships_sunk {true};
@@ -358,7 +366,7 @@ void strike(int turn,  std::array<std::array<char, BOARD_SIZE>, BOARD_SIZE> &ene
     || enemy[coordX][coordY] == 'C') // Hit
     {
         std::cout << "Hit!" << std::endl;
-        std::cout << "Player " << turn << "shot at coordinates ( " << coordX  << "; " << coordX  << " )" << std::endl;
+        std::cout << "Player " << turn << " shot at coordinates ( " << coordX  << "; " << coordX  << " )" << std::endl;
         enemy[coordX][coordY] = 'X';
     } 
     else // Invalid location
